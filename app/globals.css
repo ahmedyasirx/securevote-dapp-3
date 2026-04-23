@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+input,
+textarea,
+select {
+  @apply text-slate-900;
+}
+
+.card-grid {
+  @apply grid gap-6 lg:grid-cols-2;
+}
