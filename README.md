@@ -1,17 +1,5 @@
 # SecureVote DApp
 
-SecureVote is a coursework-ready blockchain voting system rebuilt from the `jellydn/dapp-starter` foundation. The starter's stack uses **Next.js**, **Hardhat**, and **Ethers**, and this modified version turns that base into a full voting workflow with election creation, voter approval, one-wallet-one-vote enforcement, results display, and an off-chain audit log. 
-
-## What changed from the starter
-
-- Replaced the sample contract with `SecureVote.sol`
-- Added a full election lifecycle: Draft -> Active -> Closed
-- Added on-chain candidate storage and vote counting
-- Added an admin panel for election creation, voter approval, and status updates
-- Added a voter-facing dashboard with candidate cards and live tallies
-- Added a local audit API route to support a hybrid architecture explanation in your report
-- Added deployment script and Hardhat tests
-
 ## Project structure
 
 - `contracts/SecureVote.sol` - main voting smart contract
@@ -73,12 +61,6 @@ pnpm run dev
 
 ## Submission notes
 
-In your report/slides, include:
+
 - Your public GitHub repository
-- The original repository link (`https://github.com/jellydn/dapp-starter`)
-- Your 10-minute presentation video link
-- Screenshots of the dashboard, transaction flow, and test results
-
-## Known limitation
-
-This package was assembled offline in the workspace, so dependencies were not installed and the contract was not compiled here. Before submission, run the install, compile, test, and UI sanity check steps on your machine and adjust any environment-specific details if needed.
+- The original repository link (`https://github.com/jellydn/dapp-starter`) 
