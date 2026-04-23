@@ -48,16 +48,5 @@ NEXT_PUBLIC_RPC_URL=http://127.0.0.1:8545
 pnpm run dev
 ```
 
-## Demo flow for your presentation
-
-1. Connect MetaMask
-2. Show the admin wallet
-3. Create an election with at least two candidates
-4. Approve a voter address
-5. Change the election status to `Active`
-6. Connect with the approved voter wallet and cast a vote
-7. Refresh the dashboard and show the result changing on-chain
-8. Open `/api/audit` and show the off-chain audit records
-
 ## Submission notes
 - The original repository link (`https://github.com/jellydn/dapp-starter`) 
