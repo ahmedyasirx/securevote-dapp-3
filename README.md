@@ -60,7 +60,4 @@ pnpm run dev
 8. Open `/api/audit` and show the off-chain audit records
 
 ## Submission notes
-
-
-- Your public GitHub repository
 - The original repository link (`https://github.com/jellydn/dapp-starter`) 
